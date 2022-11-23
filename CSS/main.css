@@ -22,13 +22,13 @@ body{
   width: 100%;
   padding: 30px;
   color: #ffffff;
-  background-color: #3220d3;
+  background-color: #373C44;
   box-shadow: black;
 }
 
 .title {
   text-align: left;
-  background-color: #3220d3;
+  background-color: #373C44;
 }
 
 .account {
@@ -36,17 +36,17 @@ body{
   height: 50px;
   position: relative;
   float: right;
-  background-color: #3220d3;
+  background-color: #373C44;
 }
 
 .column {
   float: left;
   width: 33%;
-  background-color: #3220d3;
+  background-color: #373C44;
 }
 
 .row {
-  background-color: #3220d3;
+  background-color: #373C44;
   text-align: center;
 }
 
@@ -54,7 +54,7 @@ body{
   content: "";
   display: table;
   clear: both;
-  background-color: #3220d3;
+  background-color: #373C44;
 }
 
 
@@ -64,22 +64,22 @@ body{
 }
 
 .dropbtn {
-  background-color: #3220d3;
+  background-color: #373C44;
 }
 
 .dropdown .dropbtn {
   font-size: 40px;
   outline: none;
   border: none;
-  color: #3220d3;
+  color: #373C44;
   padding: 14px 16px;
-  background-color: #3220d3;
+  background-color: #373C44;
   font-family: inherit;
   margin: 0;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #3220d3;
+  background-color: #373C44;
   width: auto;
 }
 
