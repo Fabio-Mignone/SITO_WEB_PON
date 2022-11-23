@@ -10,6 +10,9 @@ body::-webkit-scrollbar {
 
 body{
   background-color: rgb(43, 43, 43);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////*/
@@ -38,7 +41,7 @@ body{
 
 .column {
   float: left;
-  width: 50%;
+  width: 33%;
   background-color: #3220d3;
 }
 
@@ -121,17 +124,49 @@ body{
 .searchbar{
   background-color: rgb(7, 151, 207);
   display: flex;
-  justify-content: center;
+  height: 100px;
+  align-items:center;
+  justify-content:center;
 }
+
+.targa::placeholder{
+  color: black;
+  opacity: 1;
+}
+
+.asideleft{
+  float: left;
+  width: 50%;
+  height: 100%;
+  border-right: solid 5px black;
+  border-bottom: solid 5px black;
+  text-align: center;
+  vertical-align: center;
+  background-image: url("../IMAGE/CAR.jpg");
+  background-repeat: no-repeat;
+}
+
+.asideright{
+  float: right;
+  width: 50%;
+  height: 100%;
+  border-left: solid 5px black;
+  border-bottom: solid 8px black;
+  text-align: center;
+  vertical-align: center;
+  background-image: url("../IMAGE/BIKE.jpg");
+  background-repeat: no-repeat;
+}
+
+
 
 /*//////////////////////////////////////////////////////////////////////////////////*/
 
 
 footer {
-  position: absolute;
-  bottom: 0;
+  margin-top: auto;
   width: 100%;
-  height: 20%;
+  height: 17%;
   text-align: center;
   background-color: black;
   color: white;
